@@ -13,5 +13,12 @@ public class Tipo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tipo);
     }
-
+    public void irDoar(View view) {
+        Intent intent = new Intent(this, Doar.class);
+        startActivity(intent);
+    }
+    public void irReceber(View view) {
+        Intent intent = new Intent(this, Receber.class);
+        startActivity(intent);
+    }
 }
