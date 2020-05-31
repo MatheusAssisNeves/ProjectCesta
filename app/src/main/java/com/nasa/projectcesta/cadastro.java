@@ -14,4 +14,9 @@ public class cadastro extends AppCompatActivity {
         setContentView(R.layout.cadastro);
     }
 
+    public void irTipo(View view) {
+        Intent intent = new Intent(this, Tipo.class);
+        startActivity(intent);
+    }
+
 }
